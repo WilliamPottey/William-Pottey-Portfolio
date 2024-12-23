@@ -18,7 +18,7 @@ class App extends Component {
 
   render() {
     return (
-      <>
+      <div>
         <Header page={this.state.page} />
         <About className="about" />
         <Projects />
@@ -33,7 +33,7 @@ class App extends Component {
           <hr />
         </footer>
         {/* <img src={myLogo} alt="" /> */}
-      </>
+      </div>
     );
   }
 }

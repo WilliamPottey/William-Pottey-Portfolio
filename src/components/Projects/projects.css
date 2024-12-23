@@ -42,3 +42,7 @@
   margin-right: 25px;
   margin-top: 25px;
 }
+
+.background {
+  background-image: url(background.jpg);
+}
