@@ -48,10 +48,6 @@
   margin-top: 25px;
 }
 
-.background {
-  background-image: url(background.jpg);
-}
-
 #backgroundColor {
   background-color: rgb(159, 163, 159);
 }
