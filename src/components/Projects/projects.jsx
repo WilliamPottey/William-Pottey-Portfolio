@@ -15,17 +15,25 @@ const Projects = () => {
             the use of HTML, CSS, Javascript, and React.js to accomplish.
           </div>
           <br />
-          <div classname="projDesc">
+          <div className="projDesc">
             Below is a link to my Github where you can view the source code.
           </div>
-          <a className="projButton">
-            <button className="btn btn-secondary">test</button>
+          <a
+            href="https://github.com/WilliamPottey/William-Pottey-Portfolio"
+            id="gitHubButton"
+            target="_blank"
+          >
+            <button className="btn btn-primary btn-outline-light btn-lg">
+              GitHub
+            </button>
           </a>
         </div>
+        <div className="projectBox" id="nextProject">
+          <div> Next Project TBD!</div>
+        </div>
+        {/* <div className="projectBox"></div>
         <div className="projectBox"></div>
-        <div className="projectBox"></div>
-        <div className="projectBox"></div>
-        <div className="projectBox"></div>
+        <div className="projectBox"></div> */}
       </section>
     </div>
   );
