@@ -2,17 +2,21 @@
   "name": "project_1",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://williampottey.github.io/William-Pottey-Portfolio/",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@floating-ui/dom": "^1.6.12",
     "@floating-ui/react": "^0.27.2",
     "bootstrap": "^5.3.3",
+    "git": "^0.1.5",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.7",
     "react-dom": "^18.3.1"
@@ -26,6 +30,7 @@
     "eslint-plugin-react": "^7.37.2",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.16",
+    "gh-pages": "^6.2.0",
     "globals": "^15.13.0",
     "vite": "^6.0.3"
   }
