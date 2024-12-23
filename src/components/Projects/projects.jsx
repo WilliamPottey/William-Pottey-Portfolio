@@ -4,7 +4,7 @@ import "./projects.css";
 
 const Projects = () => {
   return (
-    <div>
+    <div classNaeme="topBorder" id="backgroundColor">
       <h1 className="display-5 fw-bold mb-5 mt-5 projTitle">
         Personal Projects
       </h1>
@@ -35,6 +35,7 @@ const Projects = () => {
         <div className="projectBox"></div>
         <div className="projectBox"></div> */}
       </section>
+      <br />
     </div>
   );
 };

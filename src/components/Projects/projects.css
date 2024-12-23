@@ -16,6 +16,11 @@
   overflow: auto;
 }
 
+.topBorder {
+  border-top: 5px solid;
+  margin-bottom: 50px;
+}
+
 .projTitle {
   display: flex;
   justify-content: center;
@@ -45,4 +50,8 @@
 
 .background {
   background-image: url(background.jpg);
+}
+
+#backgroundColor {
+  background-color: rgb(159, 163, 159);
 }

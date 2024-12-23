@@ -19,13 +19,15 @@
 
 footer {
   background-color: black;
-  position: relative;
-  top: 20px;
+  border-top: 5px ridge;
 }
 .footer {
   color: white;
-  margin-left: 50px;
-  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 20px;
+  margin-right: 20px;
 }
 
 @keyframes logo-spin {
@@ -49,4 +51,13 @@ footer {
 
 .read-the-docs {
   color: #888;
+}
+
+#backroundColor {
+  background-color: rgb(191, 192, 191);
+}
+
+.Page {
+  display: flex;
+  flex-direction: column;
 }

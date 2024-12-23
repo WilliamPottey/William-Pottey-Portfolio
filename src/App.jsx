@@ -18,17 +18,20 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className="Page">
         <Header page={this.state.page} />
         <About className="about" />
         <Projects />
         <footer>
           <div className="footer">
-            <hr />
             Author: William Pottey <br />
             &copy; Copyright Reserved <br />
-            Contact:{" "}
-            <a href="mailto:Williampottey@gmail.com">Williampottey@gmail.com</a>
+            <div>
+              Contact:{" "}
+              <a href="mailto:Williampottey@gmail.com">
+                Williampottey@gmail.com
+              </a>
+            </div>
           </div>
           <hr />
         </footer>
