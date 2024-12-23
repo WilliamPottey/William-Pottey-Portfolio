@@ -18,7 +18,8 @@ const about = () => {
             Massachusetts, Amherst with a B.S. in Computational Mathematics. I
             have been writing code since 2018, and have been professionally
             developing since 2022. I have experience with Java, Python,
-            JavaScript, CSS, HTML, and PostgreSQL.
+            JavaScript, CSS, HTML, and PostgreSQL, along with Proprietary
+            Programming Languages I've used in my professional work.
           </div>
         </span>
       </span>
