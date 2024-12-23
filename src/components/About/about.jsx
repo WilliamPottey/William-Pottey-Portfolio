@@ -7,7 +7,7 @@ const about = () => {
   return (
     <div className="background">
       <span className="about">
-        <h1 className="display-5 fw-bold mb-5 mt-5" id="whiteText">
+        <h1 className="display-5 fw-bold mb-5 mt-4" id="whiteText">
           About Me
         </h1>
         <img className="myFace" src={myLogo} />
