@@ -1,0 +1,53 @@
+.projectBox {
+  width: 200px;
+  height: 350px;
+  border: 5px groove;
+  border-radius: 15px;
+  margin-right: 25px;
+  margin-left: 25px;
+  min-width: 300px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  overflow: auto;
+}
+
+.topBorder {
+  border-top: 5px solid;
+  margin-bottom: 50px;
+}
+
+.projTitle {
+  display: flex;
+  justify-content: center;
+}
+
+#gitHubButton {
+  display: flex;
+  justify-content: center;
+  bottom: 0px;
+  padding-top: 10px;
+}
+
+#nextProject {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5em;
+  position: relative;
+  text-align: center;
+}
+
+.projDesc {
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 25px;
+}
+
+#backgroundColor {
+  background-color: rgb(159, 163, 159);
+}
