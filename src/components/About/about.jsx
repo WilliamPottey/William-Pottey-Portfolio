@@ -12,7 +12,7 @@ const about = () => {
         </h1>
         <img className="myFace" src={myLogo} />
         <span>
-          <div className="aboutDesc">
+          <div className="aboutDesc" id="whiteText">
             For as long as I can remember, I've been passionate about computers
             and Software Development. I graduated from the University of
             Massachusetts, Amherst with a B.S. in Computational Mathematics. I
