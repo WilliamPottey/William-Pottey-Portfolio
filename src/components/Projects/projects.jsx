@@ -19,6 +19,7 @@ const Projects = () => {
           <div className="projDesc">
             Below is a link to my Github where you can view the source code.
           </div>
+          <br />
           <hr />
           <div className="flexButtons">
             <a
@@ -40,7 +41,7 @@ const Projects = () => {
             components to manipulate the values selected by the user.
           </div>
           <div className="projDesc">
-            You can access teh source code via the Github button
+            You can also view the source code on my Github via the button below.
           </div>
           <hr />
           <div className="flexButtons">
