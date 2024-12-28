@@ -19,7 +19,7 @@ class App extends Component {
   render() {
     return (
       <div className="Page">
-        <Header page={this.state.page} />
+        <Header />
         <About className="about" />
         <Projects />
         <footer>

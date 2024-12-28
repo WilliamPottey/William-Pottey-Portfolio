@@ -19,6 +19,7 @@ const Projects = () => {
           <div className="projDesc">
             Below is a link to my Github where you can view the source code.
           </div>
+          <hr />
           <div className="flexButtons">
             <a
               href="https://github.com/WilliamPottey/William-Pottey-Portfolio"
@@ -38,14 +39,14 @@ const Projects = () => {
             Calculator App. This project mainly utilized React.js functional
             components to manipulate the values selected by the user.
           </div>
-          <br />
-          <br />
-          <br />
+          <div className="projDesc">
+            You can access teh source code via the Github button
+          </div>
+          <hr />
           <div className="flexButtons">
             <a
               href="https://williampottey.github.io/React-Calculator-1/"
               id="projButton"
-              target="_blank"
             >
               <button className="btn btn-primary btn-outline-light btn-lg">
                 Calculator
@@ -75,3 +76,51 @@ const Projects = () => {
 };
 
 export default Projects;
+
+// console.log(page);
+// if (page === "Project 1") {
+//   return (
+//     <header>
+//       <nav className="navbar fixed-top">
+//         <div className="container-fluid">
+//           <a className="navbar-brand">
+//             William Pottey | B.S. Computational Mathematics
+//           </a>
+//           <a href="../../index.html">
+//             <button className="btn btn-secondary home">Home</button>
+//           </a>
+//           <div className="dropdown">
+//             <button
+//               className="btn btn-secondary dropdown-toggle"
+//               type="button"
+//               id="project-dropdown"
+//               data-bs-toggle="dropdown"
+//             >
+//               Projects
+//             </button>
+//             <ul className="dropdown-menu" aria-labelledby="project-dropdown">
+//               <li>
+//                 <a
+//                   href="https://williampottey.github.io/React-Calculator-1/"
+//                   onClick={() => window.location.reload()}
+//                   className="dropdown-item"
+//                 >
+//                   Calculator
+//                 </a>
+//               </li>
+//             </ul>
+//           </div>
+//           <ul className="navbar-nav">
+//             <a
+//               className="nav-item"
+//               href="https://www.linkedin.com/in/williampottey/"
+//               target="_blank"
+//             >
+//               <img className="socials" src={linkedIn} width={35} />
+//             </a>
+//           </ul>
+//         </div>
+//       </nav>
+//     </header>
+//   );
+// }
