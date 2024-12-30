@@ -32,28 +32,44 @@ const about = () => {
             <div id="code-logos">
               <img
                 id="java-logo"
-                className="code-logo-1"
+                className="code-logo-1 logo-animation-1"
                 src={javaLogo}
                 title="Java"
               />
               <img
                 id="java-logo"
-                className="code-logo-1"
+                className="code-logo-1 logo-animation-1"
                 src={pythonLogo}
                 title="Python"
               />
               {/* <img id="js-logo" className="code-logo" src={jsLogo} />
               <img className="code-logo" src={cssLogo} /> */}
               {/* <img id="jch-logos" src={testImage} /> */}
-              <img className="code-logo-2" src={cssLogo} title="CSS" />
-              <img className="code-logo-2" src={htmlLogo} title="HTML" />
-              <img className="code-logo-2" src={jsLogo} title="JavaScript" />
               <img
-                className="code-logo-1"
+                className="code-logo-2 logo-animation-1"
+                src={cssLogo}
+                title="CSS"
+              />
+              <img
+                className="code-logo-2 logo-animation-1"
+                src={htmlLogo}
+                title="HTML"
+              />
+              <img
+                className="code-logo-2 logo-animation-1"
+                src={jsLogo}
+                title="JavaScript"
+              />
+              <img
+                className="code-logo-1 logo-animation-1"
                 src={postgresLogo}
                 title="PostgreSQL"
               />
-              <img className="code-logo-1" src={reactLogo} title="React.js" />
+              <img
+                className="code-logo-1 logo-animation-1"
+                src={reactLogo}
+                title="React.js"
+              />
             </div>
           </div>
         </div>

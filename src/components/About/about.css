@@ -97,3 +97,11 @@
   width: 70px;
   margin-right: 40px;
 }
+
+.logo-animation-1 {
+  transition: all 300ms;
+
+  &:hover {
+    transform: scale(1.25);
+  }
+}
