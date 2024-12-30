@@ -44,7 +44,12 @@ const header = () => {
             href="https://github.com/WilliamPottey"
             target="_blank"
           >
-            <img className="socials" src={GitHub} width={35} title="Github" />
+            <img
+              className="socials socMedia-animation-1"
+              src={GitHub}
+              width={35}
+              title="Github"
+            />
           </a>
           <a
             className="nav-item"
@@ -52,7 +57,7 @@ const header = () => {
             target="_blank"
           >
             <img
-              className="socials"
+              className="socials socMedia-animation-1"
               src={linkedIn}
               width={35}
               title="LinkedIn"

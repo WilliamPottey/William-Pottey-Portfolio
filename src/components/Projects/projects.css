@@ -73,6 +73,7 @@
 
 #backgroundColor {
   background-color: rgb(159, 163, 159);
+  background-attachment: fixed;
 }
 
 .flexButtons {
