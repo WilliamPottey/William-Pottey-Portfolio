@@ -18,7 +18,7 @@
   &:hover {
     transform: scale(1.04) translateY(1rem);
     background-color: rgb(154, 185, 207);
-    box-shadow: 0px 0 25px #0ff; /* outer right cyan */
+    box-shadow: 0px 0 20px #0ff; /* outer right cyan */
   }
 }
 
@@ -53,6 +53,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border-color: gray;
 }
 
 #nextProject {
@@ -78,4 +79,9 @@
   display: flex;
   justify-content: center;
   justify-content: space-evenly;
+}
+
+.projButton-Outline {
+  outline: 1px solid;
+  outline-color: rgb(103, 103, 103);
 }
