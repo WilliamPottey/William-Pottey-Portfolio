@@ -9,7 +9,7 @@ const Projects = () => {
         Personal Projects
       </h1>
       <section className="container">
-        <div className="projectBox">
+        <div className="projectBox proj-animation-1">
           <div className="projTitle">Portfolio Website</div>
           <div className="projDesc">
             This website you are currently on is a project I made. It required
@@ -33,7 +33,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="projectBox">
+        <div className="projectBox proj-animation-1">
           <div className="projTitle">React Calculator</div>
           <div className="projDesc">
             Using HTML, CSS for styling, and Javascript + React.js, I built a
@@ -64,14 +64,13 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="projectBox" id="nextProject">
+        {/* <div className="projectBox proj-animation-1" id="nextProject">
           <div> Next Project TBD!</div>
-        </div>
+        </div> */}
         {/* <div className="projectBox"></div>
         <div className="projectBox"></div>
         <div className="projectBox"></div> */}
       </section>
-      <br />
     </div>
   );
 };
