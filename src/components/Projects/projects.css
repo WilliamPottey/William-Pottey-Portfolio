@@ -15,6 +15,15 @@
   background-color: rgb(196, 181, 181);
 }
 
+.line {
+  width: 390px;
+  min-width: 390px;
+  height: 4px;
+  background-color: rgb(118, 118, 118);
+  position: absolute;
+  bottom: 90px;
+}
+
 .background-project {
   background-image: url(./images/project-bg.avif);
   background-attachment: fixed;

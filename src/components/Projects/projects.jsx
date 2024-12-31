@@ -18,6 +18,7 @@ const Projects = () => {
           <div className="projDesc">
             Below is a link to my Github where you can view the source code.
           </div>
+          <div className="line"></div>
           <div className="flexButtons">
             <a
               href="https://github.com/WilliamPottey/William-Pottey-Portfolio"
@@ -40,7 +41,7 @@ const Projects = () => {
           <div className="projDesc">
             You can also view the source code on my Github via the button below.
           </div>
-          <hr />
+          <div className="line"></div>
           <div className="flexButtons">
             <a
               href="https://williampottey.github.io/React-Calculator-1/"
