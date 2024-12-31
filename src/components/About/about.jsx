@@ -28,47 +28,85 @@ const about = () => {
                 PostgreSQL, along with Proprietary Programming Languages I've
                 used in my professional work.
               </div>
-              <div id="code-logos">
-                <img
-                  id="java-logo"
-                  className="code-logo-1 logo-animation-1"
-                  src={javaLogo}
-                  title="Java"
-                />
-                <img
-                  id="java-logo"
-                  className="code-logo-1 logo-animation-1"
-                  src={pythonLogo}
-                  title="Python"
-                />
-                {/* <img id="js-logo" className="code-logo" src={jsLogo} />
-              <img className="code-logo" src={cssLogo} /> */}
-                {/* <img id="jch-logos" src={testImage} /> */}
-                <img
-                  className="code-logo-2 logo-animation-1"
-                  src={cssLogo}
-                  title="CSS"
-                />
-                <img
-                  className="code-logo-2 logo-animation-1"
-                  src={htmlLogo}
-                  title="HTML"
-                />
-                <img
-                  className="code-logo-2 logo-animation-1"
-                  src={jsLogo}
-                  title="JavaScript"
-                />
-                <img
-                  className="code-logo-1 logo-animation-1"
-                  src={postgresLogo}
-                  title="PostgreSQL"
-                />
-                <img
-                  className="code-logo-1 logo-animation-1"
-                  src={reactLogo}
-                  title="React.js"
-                />
+              <div className="hidden-overflow">
+                <div className="logo-group">
+                  <img
+                    id="java-logo"
+                    className="code-logo-1 logo-animation-1 image_wrap_test"
+                    src={javaLogo}
+                    title="Java"
+                  />
+                  <img
+                    id="java-logo"
+                    className="code-logo-1 logo-animation-1 image_wrap_test"
+                    src={pythonLogo}
+                    title="Python"
+                  />
+                  <img
+                    className="code-logo-2 logo-animation-1 image_wrap_test"
+                    src={cssLogo}
+                    title="CSS"
+                  />
+                  <img
+                    className="code-logo-2 logo-animation-1 image_wrap_test"
+                    src={htmlLogo}
+                    title="HTML"
+                  />
+                  <img
+                    className="code-logo-2 logo-animation-1 image_wrap_test"
+                    src={jsLogo}
+                    title="JavaScript"
+                  />
+                  <img
+                    className="code-logo-1 logo-animation-1 image_wrap_test"
+                    src={postgresLogo}
+                    title="PostgreSQL"
+                  />
+                  <img
+                    className="code-logo-1 logo-animation-1 image_wrap_test"
+                    src={reactLogo}
+                    title="React.js"
+                  />
+                </div>
+                <div className="logo-group">
+                  <img
+                    id="java-logo"
+                    className="code-logo-1 logo-animation-1 image_wrap_test"
+                    src={javaLogo}
+                    title="Java"
+                  />
+                  <img
+                    id="java-logo"
+                    className="code-logo-1 logo-animation-1 image_wrap_test"
+                    src={pythonLogo}
+                    title="Python"
+                  />
+                  <img
+                    className="code-logo-2 logo-animation-1 image_wrap_test"
+                    src={cssLogo}
+                    title="CSS"
+                  />
+                  <img
+                    className="code-logo-2 logo-animation-1 image_wrap_test"
+                    src={htmlLogo}
+                    title="HTML"
+                  />
+                  <img
+                    className="code-logo-2 logo-animation-1 image_wrap_test"
+                    src={jsLogo}
+                    title="JavaScript"
+                  />
+                  <img
+                    className="code-logo-1 logo-animation-1 image_wrap_test"
+                    src={postgresLogo}
+                    title="PostgreSQL"
+                  />
+                  <img
+                    className="code-logo-1 logo-animation-1 image_wrap_test"
+                    src={reactLogo}
+                    title="React.js"
+                  />
+                </div>
               </div>
             </div>
           </div>
