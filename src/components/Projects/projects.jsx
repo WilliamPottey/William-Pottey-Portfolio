@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <div className="background-project">
       <div className="projSectionHeader">
-        <h1 className="display-5 fw-bold">Personal Projects</h1>
+        <h1 className="display-5 mt-3 mb-3 fw-bold">Personal Projects</h1>
       </div>
       <section className="container">
         <div className="projectBox proj-animation-1">
