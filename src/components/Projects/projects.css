@@ -15,6 +15,11 @@
   background-color: rgb(196, 181, 181);
 }
 
+.background-project {
+  background-image: url(./images/project-bg.avif);
+  background-attachment: fixed;
+}
+
 .proj-animation-1 {
   transition: all 300ms;
 
@@ -42,6 +47,16 @@
   display: flex;
   justify-content: center;
   font-family: "Times New Roman", Times, serif;
+  background-color: gray;
+  border-top: solid;
+  border-bottom: solid;
+  mask-image: linear-gradient(
+    to right,
+    hsl(0 0% 0% / 0),
+    hsl(0 0% 0% / 1) 50%,
+    hsl(0 0% 0% / 1) 50%,
+    hsl(0 0% 0% / 0)
+  );
 }
 
 .projTitle {

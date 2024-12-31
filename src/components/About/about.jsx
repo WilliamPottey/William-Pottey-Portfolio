@@ -11,7 +11,7 @@ import reactLogo from "./images/react_logo.png";
 
 const about = () => {
   return (
-    <div className="background">
+    <div className="background-about">
       <div className="page-margin-top">
         <h1 className="display-5 fw-bold mb-3 about-header">About Me</h1>
         <span className="about">

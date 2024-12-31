@@ -57,7 +57,7 @@ h1 {
   align-items: center;
 }
 
-.background {
+.background-about {
   background-image: url(./images/background.jpg);
   background-attachment: fixed;
 }

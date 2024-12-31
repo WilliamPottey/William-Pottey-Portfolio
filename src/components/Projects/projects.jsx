@@ -4,10 +4,10 @@ import "./projects.css";
 
 const Projects = () => {
   return (
-    <div id="backgroundColor">
-      <h1 className="display-5 fw-bold mb-5 mt-4 projSectionHeader">
-        Personal Projects
-      </h1>
+    <div className="background-project">
+      <div className="projSectionHeader">
+        <h1 className="display-5 fw-bold">Personal Projects</h1>
+      </div>
       <section className="container">
         <div className="projectBox proj-animation-1">
           <div className="projTitle">Portfolio Website</div>
@@ -15,12 +15,9 @@ const Projects = () => {
             This website you are currently on is a project I made. It required
             the use of HTML, CSS, Javascript, and React.js to accomplish.
           </div>
-          <br />
           <div className="projDesc">
             Below is a link to my Github where you can view the source code.
           </div>
-          <br />
-          <hr />
           <div className="flexButtons">
             <a
               href="https://github.com/WilliamPottey/William-Pottey-Portfolio"
