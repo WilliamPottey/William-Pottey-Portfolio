@@ -9,7 +9,6 @@
 .navbar {
   background-color: rgb(56, 50, 50);
   min-width: 675px;
-  height: 80px;
 }
 
 .navbar-brand {
@@ -51,7 +50,7 @@
   display: block;
   padding: 5px 20px;
   border-radius: 12px;
-  font-size: 1.25rem;
+  font-size: 1rem;
   background: hsl(220, 1%, 51%);
   color: white;
   transform: translateY(-4px);
