@@ -21,7 +21,7 @@
   height: 4px;
   background-color: rgb(118, 118, 118);
   position: absolute;
-  bottom: 90px;
+  bottom: 98px;
 }
 
 .background-project {
@@ -83,6 +83,7 @@
   border-color: gray;
   margin-left: 10px;
   margin-right: 10px;
+  text-decoration: none;
 }
 
 #nextProject {
@@ -115,4 +116,42 @@
 .projButton-Outline {
   outline: 1px solid;
   outline-color: rgb(103, 103, 103);
+}
+
+.button-back {
+  background: hsl(243, 100%, 32%);
+  border: none;
+  border-radius: 12px;
+  padding: 0;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+.button-front {
+  display: block;
+  padding: 12px 42px;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  background: hsl(207, 100%, 47%);
+  color: white;
+  transform: translateY(-4px);
+}
+
+.button-back:focus:not(:focus-visible) {
+  outline: none;
+}
+
+#clicked:active {
+  transform: translateY(-4px);
+}
+
+.button-back:hover .button-front {
+  transform: translateY(-7px);
+  transition: transform 250ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
+}
+
+.button-back:hover {
+  transition: filter 250ms;
+  filter: brightness(110%);
 }

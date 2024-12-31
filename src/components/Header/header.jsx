@@ -20,12 +20,14 @@ const header = () => {
 
           <div className="dropdown">
             <button
-              className="btn btn-secondary dropdown-toggle"
+              className=" button-back-1"
               type="button"
               id="project-dropdown"
               data-bs-toggle="dropdown"
             >
-              Projects
+              <span id="clicked" className="button-front-1">
+                Projects
+              </span>
             </button>
             <ul className="dropdown-menu" aria-labelledby="project-dropdown">
               <li>

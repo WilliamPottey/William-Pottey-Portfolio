@@ -25,8 +25,12 @@ const Projects = () => {
               id="projButton"
               target="_blank"
             >
-              <button className="btn btn-primary btn-lg projButton-Outline">
-                GitHub
+              <button className="button-back">
+                {/* <span className="shadow"></span>
+                <span className="edge"></span> */}
+                <span id="clicked" className="button-front">
+                  Github
+                </span>
               </button>
             </a>
           </div>
@@ -47,8 +51,12 @@ const Projects = () => {
               href="https://williampottey.github.io/React-Calculator-1/"
               id="projButton"
             >
-              <button className="btn btn-primary btn-lg projButton-Outline">
-                Calculator
+              <button className="button-back">
+                {/* <span className="shadow"></span>
+                <span className="edge"></span> */}
+                <span id="clicked" className="button-front">
+                  Calculator
+                </span>
               </button>
             </a>
             <a
@@ -56,8 +64,12 @@ const Projects = () => {
               id="projButton"
               target="_blank"
             >
-              <button className="btn btn-primary btn-lg projButton-Outline">
-                GitHub
+              <button className="button-back">
+                {/* <span className="shadow"></span>
+                <span className="edge"></span> */}
+                <span id="clicked" className="button-front">
+                  Github
+                </span>
               </button>
             </a>
           </div>
