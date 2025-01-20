@@ -41,7 +41,7 @@ const header = () => {
                   href="https://williampottey.github.io/tic-tac-toe/"
                   className="dropdown-item"
                 >
-                  Calculator
+                  Tic-Tac-Toe
                 </a>
               </li>
             </ul>
