@@ -74,6 +74,46 @@ const Projects = () => {
             </a>
           </div>
         </div>
+        <div className="projectBox proj-animation-1">
+          <div className="projTitle">Tic-Tac-Toe</div>
+          <div className="projDesc">
+            Using HTML, CSS, and Javascript + React.js, I built the game
+            Tic-Tac-Toe. This project gave me mroe hands on experiecne with the
+            use of Terinary Operators along with practive using tools like
+            .map() and .filter().
+          </div>
+          <div className="projDesc">
+            You can also view the source code on my Github via the button below.
+          </div>
+          <div className="line"></div>
+          <div className="flexButtons">
+            <a
+              href="https://williampottey.github.io/tic-tac-toe/"
+              id="projButton"
+            >
+              <button className="button-back">
+                {/* <span className="shadow"></span>
+                <span className="edge"></span> */}
+                <span id="clicked" className="button-front">
+                  Tic-Tac-Toe
+                </span>
+              </button>
+            </a>
+            <a
+              href="https://github.com/WilliamPottey/tic-tac-toe"
+              id="projButton"
+              target="_blank"
+            >
+              <button className="button-back">
+                {/* <span className="shadow"></span>
+                <span className="edge"></span> */}
+                <span id="clicked" className="button-front">
+                  Github
+                </span>
+              </button>
+            </a>
+          </div>
+        </div>
         {/* <div className="projectBox proj-animation-1" id="nextProject">
           <div> Next Project TBD!</div>
         </div> */}
@@ -86,51 +126,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
-// console.log(page);
-// if (page === "Project 1") {
-//   return (
-//     <header>
-//       <nav className="navbar fixed-top">
-//         <div className="container-fluid">
-//           <a className="navbar-brand">
-//             William Pottey | B.S. Computational Mathematics
-//           </a>
-//           <a href="../../index.html">
-//             <button className="btn btn-secondary home">Home</button>
-//           </a>
-//           <div className="dropdown">
-//             <button
-//               className="btn btn-secondary dropdown-toggle"
-//               type="button"
-//               id="project-dropdown"
-//               data-bs-toggle="dropdown"
-//             >
-//               Projects
-//             </button>
-//             <ul className="dropdown-menu" aria-labelledby="project-dropdown">
-//               <li>
-//                 <a
-//                   href="https://williampottey.github.io/React-Calculator-1/"
-//                   onClick={() => window.location.reload()}
-//                   className="dropdown-item"
-//                 >
-//                   Calculator
-//                 </a>
-//               </li>
-//             </ul>
-//           </div>
-//           <ul className="navbar-nav">
-//             <a
-//               className="nav-item"
-//               href="https://www.linkedin.com/in/williampottey/"
-//               target="_blank"
-//             >
-//               <img className="socials" src={linkedIn} width={35} />
-//             </a>
-//           </ul>
-//         </div>
-//       </nav>
-//     </header>
-//   );
-// }
