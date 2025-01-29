@@ -78,9 +78,10 @@ const Projects = () => {
           <div className="projTitle">Tic-Tac-Toe</div>
           <div className="projDesc">
             Using HTML, CSS, and Javascript + React.js, I built the game
-            Tic-Tac-Toe. This project gave me mroe hands on experiecne with the
-            use of Terinary Operators along with practive using tools like
-            .map() and .filter().
+            Tic-Tac-Toe. This project gave me more hands on experience with the
+            use of Terniary Operators to conditionalize what the user sees on
+            the screen, along with practice using tools like .map() and
+            .filter().
           </div>
           <div className="projDesc">
             You can also view the source code on my Github via the button below.
