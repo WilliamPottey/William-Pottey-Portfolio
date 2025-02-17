@@ -36,6 +36,47 @@ const Projects = () => {
           </div>
         </div>
         <div className="projectBox proj-animation-1">
+          <div className="projTitle">Doggy Match Maker</div>
+          <div className="projDesc">
+            I created a Dog Match Maker website where the user can select
+            multiple dogs from a large dog API and be matched with a dog for
+            adoption. This utilizes muliple POST and GET Fetch API calls to
+            retrieve and manipluate the Dog Object data.
+          </div>
+          <div className="projDesc">
+            You can also view the source code on my Github via the button below.
+          </div>
+          <div className="line"></div>
+          <div className="flexButtons">
+            <a
+              href="https://williampottey.github.io/Doggy-Match-Maker"
+              id="projButton"
+              target="_blank"
+            >
+              <button className="button-back">
+                {/* <span className="shadow"></span>
+                <span className="edge"></span> */}
+                <span id="clicked" className="button-front">
+                  Match Maker
+                </span>
+              </button>
+            </a>
+            <a
+              href="https://github.com/WilliamPottey/Doggy-Match-Maker"
+              id="projButton"
+              target="_blank"
+            >
+              <button className="button-back">
+                {/* <span className="shadow"></span>
+                <span className="edge"></span> */}
+                <span id="clicked" className="button-front">
+                  Github
+                </span>
+              </button>
+            </a>
+          </div>
+        </div>
+        <div className="projectBox proj-animation-1">
           <div className="projTitle">React Calculator</div>
           <div className="projDesc">
             Using HTML, CSS for styling, and Javascript + React.js, I built a

@@ -32,6 +32,13 @@ const header = () => {
             <ul className="dropdown-menu" aria-labelledby="project-dropdown">
               <li>
                 <a
+                  href="https://williampottey.github.io/Doggy-Match-Maker"
+                  className="dropdown-item"
+                  target="_blank"
+                >
+                  Doggy Match Maker
+                </a>
+                <a
                   href="https://williampottey.github.io/React-Calculator-1/"
                   className="dropdown-item"
                 >
